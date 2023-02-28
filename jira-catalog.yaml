@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage
+  name: backstage-jira
   description: backstage
   annotations:
     jira/project-key: https://harness.atlassian.net/jira/software/c/projects/CME/boards/392
@@ -34,4 +34,4 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: backstage
+  owner: backstage-jira
