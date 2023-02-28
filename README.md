@@ -1,1 +1,1 @@
-# backstage catalog info exampless
+# backstage catalog info examples
