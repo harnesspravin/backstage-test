@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage
+  name: backstage-harness
   description: backstage
   annotations:
     harness.io/project-url: https://app.harness.io/ng/#/account/gCoPSwHxS7ipOgx2iA9tOQ/ci/orgs/Automation/projects/ciplugin/
@@ -33,4 +33,4 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: backstage
+  owner: backstage-harness
