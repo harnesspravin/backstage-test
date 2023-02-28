@@ -1,0 +1,37 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage
+  description: backstage
+  annotations:
+    jira/project-key: https://harness.atlassian.net/jira/software/c/projects/CME/boards/392
+    jira/token-type: ATATT3xFfGF0fiVY3p9RXNsuHIj7-IHWcKurtRQGpUSYvJF5TglUfUIfjaA0BKCCzho5hGEYszCRE7qBFIZelnlTutySJCKidIL0urNrZtQTWv48s8gIKFUnujeottN4jE9qiDWwJ3GDRXKylyYpidkOr6Jx_z0lMfuFR4D8h2C6JQ8MxrTzGu0=69A5A161
+  tags:
+    - java
+  
+  links:
+    - url: https://example.com/user
+      title: Examples Users
+      icon: user
+    - url: https://example.com/group
+      title: Example Group
+      icon: group
+    - url: https://example.com/cloud
+      title: Link with Cloud Icon
+      icon: cloud
+    - url: https://example.com/dashboard
+      title: Dashboard
+      icon: dashboard
+    - url: https://example.com/help
+      title: Support
+      icon: help
+    - url: https://example.com/web
+      title: Website
+      icon: web
+    - url: https://example.com/alert
+      title: Alerts
+      icon: alert
+spec:
+  type: service
+  lifecycle: experimental
+  owner: backstage
